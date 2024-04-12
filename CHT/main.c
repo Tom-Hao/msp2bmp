@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
     FILE* fp_msp; //MSP檔案
     MSPFILEHEADER mspFileHeader; //MSP檔案標頭
 
-    printf("MSP2BMP 0.5.132 BETA版\n版權所有 (C) 2023-2024 中國軟體開發組 Tom Hao 製作\n");
+    printf("MSP2BMP 0.5.132 BETA版\n版權所有 (C) 2023-2024 Tom Hao 製作\n");
 
     if(argc <= 2 || argc > 3)
     {
