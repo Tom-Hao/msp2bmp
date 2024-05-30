@@ -19,11 +19,11 @@
   P.S. Because the msp file in MS-Windows 2.x’s MS-Paint appeared RLE compression and my poor programing ability, this program cannot support MS-Windows 2.x’s msp file converting yet.
 
 # In Japanese:
-  此のプログラムは、MS-Windows 1.xと2.xのMS-Paint採用MSP畫像ファイルをモノクロのBMP畫像ファイルに変換すること出來ます。
+  此のプログラムは、MS-Windows 1.xと2.xのMS-Paint採用MSP畫像ファイルをモノクロのBMP畫像ファイルに變換すること出來ます。
 　
-　Windowsコマンドプロンプトで、”msp2bmp filename.msp filename.bmp”の様な命令を入力して、変換作業が開始します。
-　注意：変換作業進行時必ず変換したいMSPファイルを此のプログラムと同じのディレクトリに置いて、変換完成後BMPファイルも此のディレクトリに生成します。
+　Windowsコマンドプロンプトで、”msp2bmp filename.msp filename.bmp”の樣な命令を入力して、變換作業が開始します。
+　注意：變換作業進行時必ず變換したいMSPファイルを此のプログラムと同じのディレクトリに置いて、變換完成後BMPファイルも此のディレクトリに生成します。
 
-  今此のプログラムは繁体字中国語（Big5）、簡体字中国語（GB2312）そして日本語（Shift-JIS）のWindowsを対応して、御使用前Windows言語によって正しい言語のプログラムを使用して下さい。
+  今此のプログラムは繁体字中国語（Big5）、簡体字中国語（GB2312）そして日本語（Shift-JIS）のWindowsを對應して、御使用前Windows言語によって正しい言語のプログラムを使用して下さい。
 
-　P.S.MS-Windows 2.xのMS-PaintのMSPファイルはRLE圧縮と言う圧縮方法で圧縮されて、そして僕のプログラミング能力は限界有りますので、今此のプログラムは暫くMS-Windows 2.xのMS-PaintのMSPファイルを支援出來ません。
+　P.S.MS-Windows 2.xのMS-PaintのMSPファイルはRLE壓縮と言う壓縮方法で壓縮されて、そして僕のプログラミング能力は限界有りますので、今此のプログラムは暫くMS-Windows 2.xのMS-PaintのMSPファイルのファイルを變換出來ません。
