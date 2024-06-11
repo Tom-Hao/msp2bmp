@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
     FILE* fp_msp; //MSP文件
     MSPFILEHEADER mspFileHeader; //MSP文件头
 
-    printf("MSP2BMP 0.5.132 BETA版\n版权所有 (C) 2023-2024 Tom Hao 制作\n");
+    printf("MSP2BMP 0.5.191 BETA版\n版权所有 (C) 2023-2024 Tom Hao 制作\n");
 
     if(argc <= 2 || argc > 3)
     {
@@ -98,7 +98,7 @@ int main(int argc, char* argv[])
         {
             if(mspFileHeader.mfWidth == 0x0140 || mspFileHeader.mfWidth == 0x0280) //确认MSP图像的宽度，只能转换三百二十、六百四十像素的图片。
             {
-                if(mspFileHeader.mfHeight == 0x00C8 || mspFileHeader.mfHeight == 0x000F || mspFileHeader.mfHeight == 0x0190 || mspFileHeader.mfHeight == 0x01E0)  //确认MSP图像的高度，只能转换二百、二百四十、四百、四百八十像素的图片。
+                if(mspFileHeader.mfHeight == 0x00C8 || mspFileHeader.mfHeight == 0x00F0 || mspFileHeader.mfHeight == 0x0190 || mspFileHeader.mfHeight == 0x01E0)  //确认MSP图像的高度，只能转换二百、二百四十、四百、四百八十像素的图片。
                 {
                     width = mspFileHeader.mfWidth;
                     height = mspFileHeader.mfHeight;

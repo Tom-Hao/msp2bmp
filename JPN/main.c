@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
     FILE* fp_msp; //MSPファイル
     MSPFILEHEADER mspFileHeader; //MSPファイルの頭
 
-    printf("MSP2BMP 0.5.132 BETA版\nCopyright (C) 2023-2024 Tom Hao 製作\n");
+    printf("MSP2BMP 0.5.191 BETA版\nCopyright (C) 2023-2024 Tom Hao 製作\n");
 
     if(argc <= 2 || argc > 3)
     {
@@ -98,7 +98,7 @@ int main(int argc, char* argv[])
         {
             if(mspFileHeader.mfWidth == 0x0140 || mspFileHeader.mfWidth == 0x0280) //MSP画像の幅を確認、唯三百二十・六百四十画素幅だけは変換出来ます。
             {
-                if(mspFileHeader.mfHeight == 0x00C8 || mspFileHeader.mfHeight == 0x000F || mspFileHeader.mfHeight == 0x0190 || mspFileHeader.mfHeight == 0x01E0)  //MSP画像の高さを確認、唯二百・二百四十・四百・四百八十画素の高さだけは変換出来ます。
+                if(mspFileHeader.mfHeight == 0x00C8 || mspFileHeader.mfHeight == 0x00F0 || mspFileHeader.mfHeight == 0x0190 || mspFileHeader.mfHeight == 0x01E0)  //MSP画像の高さを確認、唯二百・二百四十・四百・四百八十画素の高さだけは変換出来ます。
                 {
                     width = mspFileHeader.mfWidth;
                     height = mspFileHeader.mfHeight;
