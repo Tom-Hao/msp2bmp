@@ -1,12 +1,12 @@
 # In Chinese:
-  這是一個可以將MS-Windows 1.x以及2.x系統中自帶之MS-Paint採用之MSP規格的圖片檔案轉為單色BMP圖片的小程式。
+  這是一個可以將MS-Windows 1.x以及2.x系統中自帶之MS-Paint採用之MSP格式的圖片文件轉為單色BMP圖片的小程序。
 
-  程式運行於Windows命令提示字元中，透過" msp2bmp filename.msp filename.bmp "的命令形式，即可執行轉換作業，並生成所需之BMP檔。
-  注意：在執行轉換作業時需將欲轉換MSP圖片檔與本程式置於同一資料夾中，轉換後生成檔案亦生成於該資料夾內。
+  程序運行於Windows命令提示行中，通過" msp2bmp filename.msp filename.bmp "的命令形式，即可執行轉換操作，並生成所需之BMP文件。
+  注意：在執行轉換操作時需將欲轉換MSP圖片文件與本程序置於同一文件夾中，轉換後生成文件亦生成於該文件夾內。
 
-  目前這個程式可支援繁體中文（Big5），簡體中文（GB2312）以及日文（Shift-JIS）的Windows作業系統，使用對應文字之Windows作業系統執行本程式時請選擇本程式對應之文字版本。
+  目前這個程序可支持繁體中文（Big5），簡體中文（GB2312）以及日文（Shift-JIS）的Windows操作系統，使用對應文字之Windows操作系統執行本程序時請選擇本程序對應之文字版本。
 
-  P.S. 由於MS-Windows 2.x之MS-Paint程式採用之MSP圖片檔採用RLE壓縮算法儲存，加之本人水平有限，故本程式暫時不能支援MS-Windows 2.x用MS-Paint規格MSP檔案的轉換。
+  P.S. 由於MS-Windows 2.x之MS-Paint程序採用之MSP圖片文件採用RLE壓縮算法儲存，加之本人水平有限，故本程序暫時不能支持MS-Windows 2.x用MS-Paint格式MSP檔案的轉換。
 
 # In English:
   This is a program which can convert the msp picture file for the MS-Paint in MS-Windows 1.x and 2.x to monochrome bmp picture.
